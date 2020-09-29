@@ -824,9 +824,9 @@ class graphicsearch {
 		} else {
 			x := (x1<x2 ? x1:x2), y := (y1<y2 ? y1:y2)
 			, w := Abs(x2-x1)+1, h := Abs(y2-y1)+1
-			this.xywh2xywh(x,y,w,h,x,y,w,h,zx,zy,zw,zh)
-			this.getBitsFromScreen(x,y,w,h,1,zx,zy,zw,zh)
 		}
+		this.xywh2xywh(x,y,w,h,x,y,w,h,zx,zy,zw,zh)
+		this.getBitsFromScreen(x,y,w,h,1,zx,zy,zw,zh)
 	}
 
 
